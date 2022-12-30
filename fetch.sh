@@ -20,5 +20,5 @@ rsync -av --exclude-from=exclude ~/Softwares/dmenu .
 rsync -av --exclude-from=exclude ~/Softwares/slstatus .
 
 git add .
-git commit --allow-empty-message -m ''
+git commit -a --allow-empty-message -m ''
 git push
